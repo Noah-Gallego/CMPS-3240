@@ -3,6 +3,9 @@
 **California State University, Bakersfield – Spring 2026**
 **Instructor:** Professor
 
+> [!TIP]
+> The `lab_1/` directory contains a Makefile and C sources, while the remaining tracked work is organized under `submissions/`.
+
 ## Course Overview
 
 CMPS 3240 covered advanced computer architecture topics including instruction set design, processor organization, memory hierarchy, and parallel processing. The course emphasized low-level programming and hardware-software interaction.
@@ -41,3 +44,13 @@ CMPS 3240 covered advanced computer architecture topics including instruction se
 
 - **Tools:** GCC, Make, Linux (Odin server), Git
 - **Concepts:** Computer architecture, assembly programming, processor design
+
+## Coursework flow
+
+```mermaid
+flowchart LR
+    Topics[Architecture topics] --> Labs[lab_1/ exercises]
+    Topics --> Coursework[submissions/]
+    Labs --> Toolchain[GCC and Make]
+    Coursework --> Artifacts[Coursework artifacts]
+```
